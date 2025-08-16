@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 # GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 # GROQ_MODEL = os.getenv("GROQ_MODEL", "llama3-70b-8192")
 
-GROQ_API_KEY="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"
+GROQ_API_KEY=""
 GROQ_MODEL="llama3-70b-8192"
 
 def rewrite_resume(resume_text: str, target_role: str = "", target_company: str = "") -> str:
