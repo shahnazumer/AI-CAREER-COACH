@@ -1,5 +1,5 @@
 
-# Career Navigator — AI Job & Career Coach (Groq, No Email API)
+# Career Navigator — AI Job & Career Coach
 
 An AI-powered **Career Coach** that helps with resumes, interviews, job search strategy, and networking.
 Built with **LangGraph** (agent + tools), **LangChain** wrappers, and **Groq** (`llama3-70b-8192`).  
