@@ -1,5 +1,5 @@
 
-# Career Navigator — AI Job & Career Coach
+# 🚀 AI Career Coach (Career Navigator)
 
 An AI-powered **Career Coach** that helps with resumes, interviews, job search strategy, and networking.
 Built with **LangGraph** (agent + tools), **LangChain** wrappers, and **Groq** (`llama3-70b-8192`).  
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 2. **Configure environment**
 - Copy `.env` and set:
 ```
-GROQ_API_KEY=...
+GROQ_API_KEY=your_api_key_here
 GROQ_MODEL=llama3-70b-8192
 ```
 
@@ -65,10 +65,11 @@ streamlit run frontend.py
 5. **Open**: http://localhost:8501
 
 ## 💡 Example Prompts
-- "Rewrite my resume for a Data Analyst role at Acme. Here's my experience: ..."
-- "Generate 12 interview questions for a mid-level Product Manager."
-- "I'm switching from QA to Data Engineering—what’s my 90-day plan?"
-- "Draft an outreach to a recruiter at Globex for a backend role. Send to jane@globex.com."
+- "Rewrite my resume for a Data Scientist role at Google."
+- "What interview questions might I face for a Product Manager role?"
+- "How do I negotiate salary as a mid-level marketing manager?"
+- "Suggest a 30-day learning plan to transition into Cloud Engineering."
+- "Draft a networking message to a recruiter at Microsoft."
 
 ## 🔁 Customize
 - Change the model with `GROQ_MODEL` in `.env`.
