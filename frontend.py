@@ -4,7 +4,7 @@ import requests
 
 BACKEND_URL = "http://localhost:8000/ask"
 
-st.set_page_config(page_title="AI Career Coach (Groq)", layout="wide")
+st.set_page_config(page_title="AI Career Coach", layout="wide")
 st.title("💼 Career Navigator — AI Job & Career Coach")
 
 with st.sidebar:
