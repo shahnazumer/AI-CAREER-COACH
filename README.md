@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ```
 
 2. **Configure environment**
-- Copy `.env.example` to `.env` and set:
+- Copy `.env` and set:
 ```
 GROQ_API_KEY=...
 GROQ_MODEL=llama3-70b-8192
